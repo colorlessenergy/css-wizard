@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  margin: 0 20px;
+}
+
+/* div holding all codepens */
+.codepens {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* div holding a single codepen */
+
+.codepen-container {
+  width: 45%;
+}
+
+@media screen and (max-width: 961px) {
+  .codepen-container {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .codepens {
+    flex-direction: column;
+  }
+} 
