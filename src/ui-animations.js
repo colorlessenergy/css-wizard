@@ -4,6 +4,7 @@
 
 const uiAnimations = [
   {
+    id: 0,
     title: 'increasing width',
     description: 'the width of a div increases over time',
     codepen: `<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="brianmunoz" data-slug-hash="gOajBdY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="increasing width over time">
