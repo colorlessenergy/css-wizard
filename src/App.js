@@ -1,31 +1,17 @@
 import React from 'react';
 
 import uiAnimations from './ui-animations.js';
-import renderHTML from 'react-render-html';
+import UiAnimationsList from './components/UiAnimationsList.js';
+
 
 function App() {
-
-  let items = uiAnimations.map(function (item) {
-    console.log(item);
-    return (
-      <div class="codepen-container">
-        <h3>
-          {item.title}
-        </h3>
-        <p>
-          {item.description}
-        </p>
-        { renderHTML(item.codepen) }
-      </div>)
-  })
-
   return (
     <div className="container">
       <h1>
         css wizard
       </h1>
-      <div class="codepens">
-        {items}
+      <div className="codepens">
+        <UiAnimationsList uiAnimationsData={uiAnimations} />
       </div>
     </div>
   );
