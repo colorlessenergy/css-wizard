@@ -22,16 +22,16 @@ First a [codepen](https://codepen.io/) will have to be created with a UI animati
 
 Once it is created look and click on the button that reads 'Embed' in the bottom right of the page.
 
-![image of embed button](./assets/embed-button.png)
+![image of embed button](./assets-readme/embed-button.png)
 
 
 Once the Embed button is pressed make sure to make the dropdown be on the 'Dark' theme.
 
-![image of themes dropdown selected to Dark](./assets/embed-button.png)
+![image of themes dropdown selected to Dark](./assets-readme/embed-button.png)
 
 Scroll down to the section labeled as 'Copy & Paste code'. Copy the 'HTML (recommended)' one.
 
-![image of copy and paste](./assets/html-to-copy-and-paste.png)
+![image of copy and paste](./assets-readme/html-to-copy-and-paste.png)
 
 Now go to 'ui-animations.js' file and create a new object in the array.
 
