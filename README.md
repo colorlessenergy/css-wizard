@@ -27,11 +27,11 @@ Once it is created look and click on the button that reads 'Embed' in the bottom
 
 Once the Embed button is pressed make sure to make the dropdown be on the 'Dark' theme.
 
-![image of themes dropdown selected to Dark](./assets-readme/embed-button.png)
+![image of themes dropdown selected to Dark](./assets-readme/theme-dark.png)
 
 Scroll down to the section labeled as 'Copy & Paste code'. Copy the 'HTML (recommended)' one.
 
-![image of copy and paste](./assets-readme/html-to-copy-and-paste.png)
+![image of html to copy and paste](./assets-readme/html-to-copy-and-paste.png)
 
 Now go to 'ui-animations.js' file and create a new object in the array.
 
@@ -43,3 +43,5 @@ This object should have
 * CodePen - copy and paste the code you got from CodePen
 
 Note: when copying and pasting the code from codepen make sure to remove the JavaScript that is being imported '<script async src="https://static.codepen.io/assets/embed/ei.js"></script>'.
+
+![image of ui animation copy paste](./assets-readme/ui-animation-copy-paste.png)
